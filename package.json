@@ -1,0 +1,30 @@
+{
+  "name": "treegrid-js",
+  "version": "1.0.0",
+  "description": "Frontend part of the browser control that displays hierarchy table",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miptleha/treegrid-js.git"
+  },
+  "keywords": [
+    "js",
+    "jquery",
+    "control",
+    "grid",
+    "table",
+    "tree"
+  ],
+  "author": "miptleha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miptleha/treegrid-js/issues"
+  },
+  "homepage": "https://github.com/miptleha/treegrid-js",
+  "dependencies": {
+    "jquery": ">=1.11.0"
+  }
+}
