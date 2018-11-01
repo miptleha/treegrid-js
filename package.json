@@ -1,6 +1,6 @@
 {
   "name": "treegrid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Frontend part of the browser control that displays hierarchy table",
   "main": "src/treegrid.js",
   "scripts": {
