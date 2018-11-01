@@ -9,7 +9,7 @@ npm install treegrid
 ## files
  File | Description
  --- | --- 
- [Treegrid.js](src\treegrid.js) | Component code, require jquery
- [Treegrid.css](src\treegrid.css) | Styles
- [Img](src\Img) | Images, used in component
+ [Treegrid.js](src/treegrid.js) | Component code, require jquery
+ [Treegrid.css](src/treegrid.css) | Styles
+ [Img](src/Img) | Images, used in component
  
