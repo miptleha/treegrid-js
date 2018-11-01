@@ -4,12 +4,14 @@ Frontend part of treegrid control.
 See [sample application](https://github.com/miptleha/treegrid-core) how use this library
 
 ## install
+```
 npm install treegrid
+```
 
 ## files
  File | Description
  --- | --- 
  [Treegrid.js](src/treegrid.js) | Component code, require jquery
  [Treegrid.css](src/treegrid.css) | Styles
- [Img](src/Img) | Images, used in component
+ [Images](src/Images) | Images, used in component
  
