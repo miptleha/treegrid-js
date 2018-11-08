@@ -1,9 +1,9 @@
 # treegrid
+JavaScript control that displays table with fixed header. Displays hierarchical data in a tree view.
+
 ![treegrid](demo.png)
 
-Frontend part of treegrid control.
-
-See [sample application](https://github.com/miptleha/treegrid-core) how use this library.
+See [sample c# application](https://github.com/miptleha/treegrid-core) or run test for static sample.
 
 ## install
 ```
