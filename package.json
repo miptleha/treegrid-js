@@ -1,10 +1,10 @@
 {
   "name": "treegrid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Frontend part of the browser control that displays hierarchy table",
-  "main": "src/treegrid.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "http-server -p 8080 -c-1 -o"
   },
   "repository": {
     "type": "git",
@@ -38,5 +38,8 @@
         "src/**/*"
       ]
     }
-   ]
+  ],
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }

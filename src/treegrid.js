@@ -60,13 +60,15 @@ TreeGrid.prototype = {
         this.$mainDiv.append('<div class="grid-loader"></div>');
         this.saveSetting();
         this.columnPosition = null;
-        $.post(this.opt.url, this.params, function (data) {
+        $.ajax({ type: this.opt.method || 'POST', url: this.opt.url, data: this.params})
+        .done(function (data) {
             if (obj.dataColumns)
                 data.Columns = obj.dataColumns;
             obj.fillData(data);
             $('.grid-loader', obj.$mainDiv).remove();
             obj.restoreSettings();
-        }).fail(function () {
+        })
+        .fail(function () {
             obj.ajax_error(arguments);
         });
     },
@@ -520,7 +522,8 @@ TreeGrid.prototype = {
             $div.removeClass('grid-plus').addClass('grid-wait');
 
             var params = $.extend({}, this.params, { parentId: id });
-            $.post(this.opt.url, params, function (data) {
+            $.ajax({ type: this.opt.method || 'POST', url: this.opt.url, data: params})
+            .done(function (data) {
                 $div.removeClass('grid-wait').addClass('grid-minus');
 
                 var content = obj.createContent(data, level, parentStr);
