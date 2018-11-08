@@ -1,7 +1,7 @@
 {
   "name": "treegrid",
-  "version": "1.0.2",
-  "description": "Frontend part of the browser control that displays hierarchy table",
+  "version": "1.0.3",
+  "description": "Browser control that displays hierarchy table with fixed header",
   "main": "index.html",
   "scripts": {
     "test": "http-server -p 8080 -c-1 -o"
@@ -28,14 +28,16 @@
     "jquery": "*"
   },
   "files": [
-    "src/"
+    "src/",
+    "test/"
   ],
   "npmName": "treegrid",
   "npmFileMap": [
     {
       "basePath": "",
       "files": [
-        "src/**/*"
+        "src/**/*",
+        "test/*"
       ]
     }
   ],
