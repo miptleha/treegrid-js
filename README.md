@@ -10,8 +10,16 @@ See [sample c# application](https://github.com/miptleha/treegrid-core) or run te
 npm install treegrid
 ```
 
-## run test
+or
+
 ```
+git clone https://github.com/miptleha/treegrid-js.git
+```
+
+## run test
+In treegrid-js folder
+```
+npm install
 npm run test
 ```
 
