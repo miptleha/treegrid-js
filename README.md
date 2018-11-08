@@ -1,5 +1,5 @@
 # treegrid
-JavaScript control that displays table with fixed header. Displays hierarchical data in a tree view.
+JavaScript browser control that displays table with fixed header. Displays hierarchical data in a tree view.
 
 ![treegrid](demo.png)
 
