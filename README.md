@@ -17,7 +17,7 @@ git clone https://github.com/miptleha/treegrid-js.git
 ```
 
 ## run test
-In treegrid-js folder
+In treegrid-js (or treegrid for npm install) folder
 ```
 npm install
 npm run test

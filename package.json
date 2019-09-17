@@ -4,7 +4,7 @@
   "description": "Browser control that displays hierarchy table with fixed header",
   "main": "index.html",
   "scripts": {
-    "test": "http-server -p 8080 -c-1 -o"
+    "test": "light-server -p 8080 -s . -o"
   },
   "repository": {
     "type": "git",
@@ -42,6 +42,6 @@
     }
   ],
   "devDependencies": {
-    "http-server": "^0.11.1"
+    "light-server": "*"
   }
 }
