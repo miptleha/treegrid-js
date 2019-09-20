@@ -1,10 +1,10 @@
 {
   "name": "treegrid",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Browser control that displays hierarchy table with fixed header",
   "main": "index.html",
   "scripts": {
-    "test": "light-server -p 8080 -s . -o"
+    "test": "miptleha-http -o"
   },
   "repository": {
     "type": "git",
@@ -42,6 +42,6 @@
     }
   ],
   "devDependencies": {
-    "light-server": "*"
+    "miptleha-http": "*"
   }
 }
