@@ -1,29 +1,19 @@
-# treegrid
-JavaScript component for outputting a table with a fixed header. Hierarchical data is displayed as a tree.
+# TreeGrid
+JavaScript browser component for outputting a table with a fixed header. Hierarchical data is displayed as a tree.
 
 ![treegrid](demo.png)
 
-See [sample c# application](https://github.com/miptleha/treegrid-core) or run test for static sample.
+See [sample c# application](https://github.com/miptleha/treegrid-core) that uses this component.
 
-## install
-```
-npm install treegrid
-```
-
-or
-
+## Quick look
+Download source code and open test page:
 ```
 git clone https://github.com/miptleha/treegrid-js.git
+cd treegrid-js
+npm it
 ```
 
-## run test
-In treegrid-js (or treegrid for npm install) folder
-```
-npm install
-npm run test
-```
-
-## files
+## Files
  File | Description
  --- | --- 
  [treegrid.js](src/treegrid.js) | Component code, require jquery

@@ -1,6 +1,6 @@
 {
   "name": "treegrid",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Browser control that displays hierarchy table with fixed header",
   "main": "index.html",
   "scripts": {
