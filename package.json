@@ -4,7 +4,7 @@
   "description": "Browser control that displays hierarchy table with fixed header",
   "main": "index.html",
   "scripts": {
-    "test": "miptleha-http -o"
+    "test": "miptleha-http"
   },
   "repository": {
     "type": "git",
